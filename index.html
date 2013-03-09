@@ -3,13 +3,16 @@ layout: default
 title: Extreme Development Tour
 ---
 
-<section id="tour">
-  <h1>Our tour</h1>
-
+<section>
+  <h2>The tour</h2>
+  <p>This summer 2013, we embark on a one week tour of the companies that change software development everyday. We intend to visit their offices, see how they work, interview them, pair programm with them
+  and then share that experience with the developer community back in France.</p>
+  <p>Our main goal is to show that happy developers make great software.</p>
+  <p>Check our posts below to see where we're at.</p>
 </section>
 
-<section id="posts">
-  <h1>Last updates</h1>
+<section>
+  <h2>Last updates</h2>
   <ul>
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

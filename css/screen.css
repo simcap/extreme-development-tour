@@ -1,7 +1,48 @@
 body {
-  font-family: Monaco, "Courier New", monospace;
+  background-color: #F8F8F8;
+  color: #424666;
+  font-family: Verdana, monospace;
+  font-size: 100%;
+  line-height: 1.8;
+  text-rendering: optimizelegibility;
+  margin: 0 150px 0 150px;
+}
+
+header {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+nav {
+  float: right;
+  font-size: 80%;
+  font-weight: normal;
+  margin-top: 0.3em;
+}
+
+nav a {
+  color: #424666;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #E10000;
+}
+
+nav span {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+section a {
+  color: #E10000;
 }
 
 ul {
   list-style-type: none;
+}
+
+hr {
+  background-color: #E10000;
+  border: medium;
 }
