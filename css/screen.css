@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-  color: #424666;
+  color: #7B7E94;
   text-decoration: none;
 }
 
@@ -46,4 +46,8 @@ hr {
   background-color: #E10000;
   border: medium;
   margin-bottom: 1.5em;
+}
+
+.light {
+  color: #7B7E94;
 }
