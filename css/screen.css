@@ -53,6 +53,12 @@ hr {
   margin-bottom: 1.5em;
 }
 
+header a#title {
+  color: #424666;
+  text-shadow: 0 2px 3px #666666;
+  text-decoration: none;
+}
+
 .member {
   margin-bottom: 1em;
   width: 950px;
