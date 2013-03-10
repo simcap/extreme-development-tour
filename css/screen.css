@@ -38,6 +38,11 @@ section a {
   color: #E10000;
 }
 
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
   list-style-type: none;
 }
@@ -48,6 +53,30 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.light {
+.member {
+  margin-bottom: 1em;
+  width: 950px;
+  float: left;
+}
+
+.photo {
+  width: 150px;
+  float: left;
+}
+
+.bio {
+  width: 750px;
+  margin-right: 0;
+  float: left;
+}
+
+.photo img {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 4px #000000;
+    margin-top: 0.2em;
+    width: 100px;
+}
+
+.quiet {
   color: #7B7E94;
 }
